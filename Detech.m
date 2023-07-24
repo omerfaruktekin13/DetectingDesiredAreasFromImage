@@ -1,5 +1,5 @@
 %Original Image
-a = imread('ayse.jpeg');
+a = imread('original_image.jpeg');
 
 %Adding Noise
 J = imnoise(a,'salt & pepper',0.02);
